@@ -4,6 +4,8 @@ Complete redevelopment of dynamic, reusable, responsive Marketo module-based tem
 
 Users can change the text color, panel background color, content copy, images, videos, icons etc on the fly by using the newly developed WYSIWYG system. Also, the height for each panel and site elements is dynamic so the users don’t need to worry about the copy limitation, the image height etc because the height grows or shrinks with the copy, image or any elements.
 
+Note that this code contains sample template files rather than the full template files to avoid exposing confidential code.
+
 This template used the [Sass Essential Training](https://github.com/planetoftheweb/sassEssentials) as a starting point, primarily for the grunt build system and SASS compilation.
 
 ## Installing
