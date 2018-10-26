@@ -1,0 +1,41 @@
+.background {
+	color: $color-backgrounds;
+
+	.container {
+
+		h1 {
+			color: $yellow;
+			font-family: $font-main;
+			font-size: 3rem;
+			line-height: 105%;
+			margin-top: 0;
+			margin-bottom: 0.5rem;
+			padding: 0 10%;
+		}
+
+		p {
+			padding: 0 10%;
+			margin-top: 0;
+		}
+		.disclaimer {
+
+				p{
+					color: $white;
+				}
+			}
+	}
+}
+
+.panel-btn-cta {
+	@extend .background;
+}
+
+.hero-img {
+	@include backImage(
+		'../images/water.jpg');
+}
+
+.panel-btn-cta {
+	@include backImage(
+		'../images/bridge.jpg');
+}

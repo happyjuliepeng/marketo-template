@@ -1,0 +1,36 @@
+// Load Fonts
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+$white:         #FFFFFF;
+$offwhite:      #EEE8D6;
+$darkblue:      #022933;
+$yellow:        #FFBA00;
+$blue:          #0076A3;
+$green:         #548C27;
+$orange:        #FC962F;
+$darkorange:    #EB7906;
+$darkestorange: darken($orange, 40%);
+$red:           #D14348;
+$purple:        #6D73C2;
+$black:         #000000;
+$primaryblue:   #003f5d;
+$secondaryblue: #1b75bc;
+
+
+$color-main: $darkblue;
+$color-backgrounds: $offwhite;
+$color-headlines: $red;
+
+
+$font-main: Helvetica, 'Roboto', sans-serif;
+$font-highlight: Helvetica, 'Open Sans', sans-serif;
+
+
+//breakpoints
+/*
+$small:		450px;
+$medium:	760px;
+$large:		1200px;
+*/
